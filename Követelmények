@@ -1,1 +1,18 @@
-Ide j�nnek majd a k�vetelm�nyek.
+Hogy mi is az amit pontosan meg kell csinálni:
+  <Lab1>
+  - Egy kliens - szerver asztali alkalmazás
+  - A kliens a szervertől lekér egy fájlt (szerintem legyen egy XML fájl)
+  - A kliens a fájlt feldolgozva létrehoz egy TreeView szerkezetet
+  - Egy bármilyen adatbázisra jobb-klikkelve hozzáadhatunk egy új adatbázist (New Database)
+  - Hasonló módon jobb-klikkelve törölhetünk egy adatbázist (Drop Database)
+  - Egy bármilyen táblára jobb-klikkelve hozzáadhatunk egy új táblát (New Table)
+  - Hasonló módon jobb-klikkelve törölhetünk egy táblát (Drop Table)
+  - Ugyancsak hasonló módon hozzáadhatunk egy új sort (Insert New Row)
+  
+  Én azt mondanám, hogy egyelőre legyen ennyi az aminek nekifogunk.
+  
+  Felosztjuk. Az egyikünk megcsinálja a klienst meg a szervert és megoldja, hogy a kliens küldjön 
+  egy kérést a szervernek és az küldjön vissza neki egy XML fájlt, ami alapján kirajzolódik a struktúra.
+  Ez alatt a másik egy külön API-ban megoldja, hogy ugyancsak az XML alapján rajzoljon ki egy TreeView-t.
+  Csak azt hogy hogy nézzen ki (a jobb-klikkes opciók nélkül). Összerakjuk a két alkalmazást és dolgozunk 
+  tovább az opciókon.  
